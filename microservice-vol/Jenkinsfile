@@ -1,7 +1,7 @@
 node {
 
 stage('SCM'){
- git 'https://github.com/thomas-martin-adaming/test_jenkins_sonarqube'
+ git 'https://github.com/thomas-martin-adaming/test_jenkins_sonarqube/blob/master/microservice-vol'
 }
 
 stage('Compile'){
